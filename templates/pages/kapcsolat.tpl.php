@@ -7,5 +7,5 @@
     <br>
 
     <a target="_blank" href="https://maps.google.com/?q=46.91995773502001,19.700037512361725">
-  Nagyobb térképhez.
+  Nagyobb térképhez kattinson a szövegre.
 </a>
