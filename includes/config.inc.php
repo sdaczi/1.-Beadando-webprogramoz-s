@@ -1,4 +1,7 @@
 <?php
+
+
+//Menühöz
 $ablakcim = array(
     'cim' => 'Kecskeméti Világjáró Klub',
 );
