@@ -6,9 +6,9 @@ Természet Házában (Kecskemét, Liszt Ferenc u. 19.). <br> <br> Az előadások
 <p>E-mail: <strong>kecskemetivilagjaroklub88@gmail.com</strong></p>
 
 <div class="social-links">
-  <a href="https://www.facebook.com/" class="social-btn facebook" target="_blank">Facebook</a>
+  <a href="https://www.facebook.com/profile.php?id=61556805601563" class="social-btn facebook" target="_blank">Facebook</a>
   <br>
-  <a href="https://www.instagram.com/" class="social-btn instagram" target="_blank">Instagram</a>
+  <a href="https://www.instagram.com/kecskemetivilagjaroklub/" class="social-btn instagram" target="_blank">Instagram</a>
 </div>
 
 <br> 
@@ -22,3 +22,18 @@ Természet Házában (Kecskemét, Liszt Ferenc u. 19.). <br> <br> Az előadások
 Nagyobb térképhez kattinson a szövegre.
 </a>
 <br> 
+
+<h2>Kapcsolatfelvétel</h2>
+
+<form id="kapcsolatForm" method="post" action="index.php?oldal=kapcsolat">
+    <label>Név: <input type="text" name="name" id="name"></label><br><br>
+    <label>Email: <input type="email" name="email" id="email"></label><br><br>
+    <label>Üzenet:<br>
+        <textarea name="message" id="message" rows="5" cols="50"></textarea>
+    </label><br><br>
+    <input type="submit" value="Küldés">
+</form>
+
+<?php if (isset($uzenet)) echo "<p><strong>$uzenet</strong></p>"; ?>
+
+

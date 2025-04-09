@@ -1,4 +1,7 @@
-<?php if (file_exists('./logicals/' . $keres['fajl'] . '.php')) {
+<?php
+session_start();
+
+ if (file_exists('./logicals/' . $keres['fajl'] . '.php')) {
     include("./logicals/{$keres['fajl']}.php");
 } ?>
 <!DOCTYPE html>
@@ -13,14 +16,15 @@
     <?php } ?>
 </head>
 <body>
-    <header>
-        <img src="./images/<?= $fejlec['kepforras'] ?>" alt="<?= $fejlec['kepalt'] ?>">
-        <h1><?= $fejlec['cim'] ?></h1>
-        <?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
-        <?php if (isset($_SESSION['login'])) { ?>
-            <p>Bejelentkezve: <strong><?= $_SESSION['csn'] . " " . $_SESSION['un'] . " (" . $_SESSION['login'] . ")" ?></strong></p>
-        <?php } ?>
-    </header>
+<header>
+    <img src="./images/<?= $fejlec['kepforras'] ?>" alt="<?= $fejlec['kepalt'] ?>">
+    <h1><?= $fejlec['cim'] ?></h1>
+    <?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
+
+    <?php if (isset($_SESSION['login'])): ?>
+        <p>Bejelentkezett: <?= $_SESSION['csn'] ?> <?= $_SESSION['un'] ?> (<?= $_SESSION['login'] ?>)</p>
+    <?php endif; ?>
+</header>
 
     <button class="menu-toggle" id="menu-toggle">&#9776;</button>
     <aside id="nav">
@@ -45,7 +49,9 @@
         </div>
     </div>
 
+
     <footer>
+<br>
         <?php if (isset($lablec['copyright'])) { ?>
             &copy; <?= $lablec['copyright'] ?>
         <?php } ?>

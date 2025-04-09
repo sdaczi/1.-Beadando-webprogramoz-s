@@ -27,7 +27,7 @@
     }
 
     header img {
-        max-height: 100px;
+        max-height: 40px;
     }
 
     #wrapper, #content {
@@ -37,7 +37,7 @@
 
 /* Nagyobb kijelzők */
 header img {
-    max-height: 150px;
+    max-height: 60px;
     width: auto;
 }
 

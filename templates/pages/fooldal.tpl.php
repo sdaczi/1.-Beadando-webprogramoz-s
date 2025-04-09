@@ -17,7 +17,7 @@ látogattak meg párat.
 <p>
 Ezután csoportukkal Bali szigetének csodáit fedezték fel.
 </p>
-<img src="images/2504bali1.jpg" width="400"><br><br>
+<img src="images/2504bali1.jpg" width="500"><br><br>
 
 <h3>2025.04.01. Bardócz Attila (Ata): Etiópia ősi földje</h3>
 
@@ -55,8 +55,8 @@ Nagyon érdekes dolgokat mondott el nekünk:
 <p>
 - a kávé Kaffa tartományból származik, de az etiópok bunna - nak hívják ezt az italt
 </p>
-<img src="images/2504etiop1.jpg" width="400"><br><br>
-<img src="images/2504etiop2.jpg" width="400"><br><br>
+<img src="images/2504etiop1.jpg" width="500"><br><br>
+<img src="images/2504etiop2.jpg" width="500"><br><br>
 
 <h3>2025.03.18. Szabados László: PHK - Patagónia, Húsvét - sziget, Kórház</h3>
 
@@ -83,9 +83,9 @@ Megtudtuk, hogy:
 <p>
 - a Húsvét szigetek szobrai mind le voltak döntve és a múlt század közepén kezdték felállítani őket
 </p>
-<img src="images/2503chile1.jpg" width="400"><br><br>
-<img src="images/2503chile2.jpg" width="400"><br><br>
-<img src="images/2503chile3.jpg" width="400"><br><br>
+<img src="images/2503chile1.jpg" width="500"><br><br>
+<img src="images/2503chile2.jpg" width="500"><br><br>
+<img src="images/2503chile3.jpg" width="500"><br><br>
 
 <h3>2025.03.01. Túra Bugac és Csengele között</h3>
 <p>A Világjáró Klub a már korábban belekezdett - téli, egynapos testátmozgató kirándulásainak keretében -
@@ -96,5 +96,22 @@ Megtudtuk, hogy:
 
 <p>Most szép időben a Bugac és Csengele közötti ötödik, bő 20 km-es szakaszt teljesítette a Kecskeméti Világjáró Klub kis csapata.
 </p>
-<img src="images/2503tura2.jpg" width="400"><br><br>
-<img src="images/2503tura1.jpg" width="400"><br><br>
+<img src="images/2503tura2.jpg" width="500"><br><br>
+<img src="images/2503tura1.jpg" width="500"><br><br>
+
+<h3>Riport egyik előadónkkal, Bardócz Attilával</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T882PrALvD8?start=154" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+</iframe>
+
+<br><br>
+
+<h3>Az előadások helyszine, a Természet Háza</h3>
+<video width="560" height="315" controls>
+  <source src="images/termeszethaza.mp4" type="video/mp4">
+  A videó nem támogatott a böngésződben.
+</video>
+
+<br><br>

@@ -1,7 +1,7 @@
 <h2>Bemutatkozás</h2>
 
 <h3>A Kecskeméti Világjáró Klub rövid története</h3>
-<br><img src="images/bemutatkozas1.jpg" width="400"><br>
+<br><img src="images/bemutatkozas1.jpg" width="500"><br>
 <p>A mai klub elődje 1988. március 15-én alakult meg a Kecskeméti Planetáriumban. Akkori nevén TIT "Föld
 és Ég" Világjáró Klubnak hívták.
 </p>
