@@ -1,10 +1,14 @@
 <?php
 if(isset($_POST['felhasznalo']) && isset($_POST['jelszo'])) {
     try {
-        // Kapcsolódás
-        $dbh = new PDO('mysql:host=localhost;dbname=adatbázis neve', 'root', '',
-                        array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
-        $dbh->query('SET NAMES utf8 COLLATE utf8_hungarian_ci');
+            // Kapcsolódás
+            $dbh = new PDO(
+                'mysql:host=localhost;dbname=daczihu0_webprog',
+                'daczihu0_daczihu0',
+                '2u4Y3ocdUI',
+                array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION)
+            );
+            $dbh->query('SET NAMES utf8 COLLATE utf8_hungarian_ci');
         
         // Felhsználó keresése
         $sqlSelect = "select id, csaladi_nev, uto_nev from felhasznalok where bejelentkezes = :bejelentkezes and jelszo = sha1(:jelszo)";
